@@ -1,0 +1,10 @@
+{
+  "name": "jira-service-desk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node webhook.js"
+  },
+  "author": "thejitu",
+  "license": "ISC"
+}
