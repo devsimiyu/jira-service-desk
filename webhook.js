@@ -6,7 +6,7 @@ const handler = async (req, res) => {
         buffer.push(chunk);
     }
     const data = JSON.parse(Buffer.concat(buffer).toString());
-    console.debug(data);
+    console.table(data);
     res.writeHead(200);
     res.end();
 };
